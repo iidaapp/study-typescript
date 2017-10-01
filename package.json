@@ -1,0 +1,19 @@
+{
+  "name": "study-typescript",
+  "version": "1.0.0",
+  "description": "typescript project for my study.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "start": "electron app/main/index.js"
+  },
+  "author": "iidaapp",
+  "devDependencies": {
+    "electron": "1.7.8",
+    "typescript": "^2.5.3"
+  },
+  "dependencies": {
+    "@types/node": "^8.0.31"
+  }
+}
